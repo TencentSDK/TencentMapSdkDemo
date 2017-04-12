@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tencent.mapsdkdemo.vector"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <application
+        android:label="TencentMapSDK_Vector" >
+        <meta-data
+            android:name="TencentMapSDK"
+            android:value="845b4b705088dd7f0b68cfc8d02196af" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TransparentActivity"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity android:name=".DialogDemoActivity" />
+        <activity android:name=".MarkerDemoActivity" />
+        <activity android:name=".RawMapViewDemoActivity" />
+        <activity android:name=".BasicMapActivity" />
+        <activity android:name=".CameraDemoActivity" />
+        <activity android:name=".CircleDemoActivity" />
+        <activity android:name=".EventsDemoActivity" />
+        <activity android:name=".LayersDemoActivity" />
+        <activity android:name=".LocationSourceDemoActivity" />
+        <activity android:name=".InfoWindowAnimationDemoActivity" />
+        <activity android:name=".MultiMapDemoActivity" />
+        <activity android:name=".PolygonDemoActivity" />
+        <activity android:name=".PolylineDemoActivity" />
+        <activity android:name=".ProgrammaticDemoActivity" />
+        <activity android:name=".UiSettingsDemoActivity" />
+        <activity android:name=".DirectionMapActivity" />
+        <activity android:name=".HeatMapActivity" />
+        <activity android:name=".MultiLayerActivity" />
+        <activity android:name=".ScreenShotDemoActivity" />
+        <activity android:name=".LifeCircleMapViewActivity" />
+        <activity android:name=".FragmentPagerActivity" />
+        <activity
+            android:name=".CustomerMapViewActivity"
+            android:label="CustomerMapViewActivity" />
+        <activity android:name=".SlidingDrawerMapActivity" >
+        </activity>
+        <activity android:name=".InfoWindowOverturnDemoActivity" />
+        <activity android:name=".BubblesOverlayDemoActivity" />
+        <activity android:name=".PolygonWithTextDemoActivity" />
+        <activity android:name=".MarkerGroupDemoActivity"/>
+        <activity
+            android:name=".LogoAndScaleActivity" />
+        <activity android:name=".MaskLayerDemoActivity" />
+        <activity android:name=".BestViewDemoActivity" />
+        <activity android:name=".PressureTestActivity" />
+
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-sdk android:minSdkVersion="14" />
+
+</manifest>

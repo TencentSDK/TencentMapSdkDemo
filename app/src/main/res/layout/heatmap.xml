@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This can go anywhere in your layout (see other demos for some examples). -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.tencent.tencentmap.mapsdk.maps.SupportMapFragment" />
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add HeatMap" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_toRightOf="@id/btnadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rm HeatMap" />
+    
+        <Button
+        android:id="@+id/update"
+        android:layout_toRightOf="@id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update data" />
+
+</RelativeLayout>

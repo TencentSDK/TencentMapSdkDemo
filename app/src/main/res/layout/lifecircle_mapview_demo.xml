@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/customer_mapview_button_onstart"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="OnStart" />
+    <Button
+        android:id="@+id/customer_mapview_button_onresume"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="OnResume" />
+    <Button
+        android:id="@+id/customer_mapview_button_onpause"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="OnPause" />
+    <Button
+        android:id="@+id/customer_mapview_button_onstop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="OnStop" />
+
+        <com.tencent.mapsdkdemo.vector.CustomerMapView
+            android:id="@+id/customer_mapview_map"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"></com.tencent.mapsdkdemo.vector.CustomerMapView>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <com.tencent.mapsdkdemo.vector.CustomerMapView
+            android:id="@+id/mapview_map"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"></com.tencent.mapsdkdemo.vector.CustomerMapView>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/title_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ff0079ff"
+        android:gravity="center"
+        android:textSize="23dp"
+        android:textColor="#ffffffff"
+        android:visibility="gone"/>
+
+    <ListView
+        android:id="@+id/floor_id_list"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:background="#ff0079ff"
+        android:visibility="gone"></ListView>
+
+</FrameLayout>

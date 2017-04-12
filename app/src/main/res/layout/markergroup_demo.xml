@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/show_infowindow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="show infowindow"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/hide_infowindow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hide infowindow"
+        android:onClick="onClick"/>
+    <CheckBox
+        android:id="@+id/bubbles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bubbles"
+        android:onClick="setBubblesInfoWindow"
+        android:checked="false"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OnTapMapViewHidden"
+        android:onClick="setOnTapMapViewHidden"
+        android:checked="false"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="InfoWindowEnable"
+        android:onClick="setInfoWindowEnable"
+        android:checked="true"/>
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.tencent.tencentmap.mapsdk.maps.SupportMapFragment"/>
+
+</LinearLayout>

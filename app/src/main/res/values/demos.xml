@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="demo_activitys">
+        <item>LifeCircleMapViewActivity</item>
+        <item>TileOverlayActivity</item>
+        <item>FragmentPagerActivity</item>
+        <item>DialogDemoActivity</item>
+        <item>SlidingDrawerMapActivity</item>
+        <item>CustomerMapViewActivity</item>
+        <item>ScreenShotDemoActivity</item>
+        <item>MultiLayerActivity</item>
+        <item>RawMapViewDemoActivity</item>
+        <item>BasicMapActivity</item>
+        <item>DirectionMapActivity</item>
+        <item>CameraDemoActivity</item>
+        <item>CircleDemoActivity</item>
+        <item>EventsDemoActivity</item>
+        <item>LayersDemoActivity</item>
+        <item>LocationSourceDemoActivity</item>
+        <item>MarkerDemoActivity</item>
+        <item>InfoWindowAnimationDemoActivity</item>
+        <item>MultiMapDemoActivity</item>
+        <item>PolygonDemoActivity</item>
+        <item>PolylineDemoActivity</item>
+        <item>ProgrammaticDemoActivity</item>
+        <item>UiSettingsDemoActivity</item>
+        <item>OfflineDemoActivity2</item>
+        <item>HeatMapActivity</item>
+        <item>MapFragmentActivity</item>
+        <item>TestMapActivity</item>
+        <item>InfoWindowOverturnDemoActivity</item>
+        <item>BubblesOverlayDemoActivity</item>
+        <item>PolygonWithTextDemoActivity</item>
+        <item>LogoAndScaleActivity</item>
+        <item>MaskLayerDemoActivity</item>
+        <item>MarkerGroupDemoActivity</item>
+        <item>BestViewDemoActivity</item>
+        <item>PressureTestActivity</item>
+    </string-array>
+
+</resources>
